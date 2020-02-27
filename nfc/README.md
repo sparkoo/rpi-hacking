@@ -1,5 +1,12 @@
 hardware: RFID-RC522
 
+install these:
+```
+pip3 install mfrc522
+pip3 install spidev
+```
+
+### pinout
 | Name | Pin # | Pin name   |
 |:------:|:-------:|:------------:|
 | SDA  | 24    | SPICEO     |
