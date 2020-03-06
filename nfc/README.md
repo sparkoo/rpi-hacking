@@ -7,15 +7,15 @@ pip3 install spidev
 ```
 
 ### pinout
-| Name | Pin # | Pin name   |
+| Name | Pin # | Pin name   |  GPIO
 |:------:|:-------:|:------------:|
-| SDA  | 24    | SPICEO     |
-| SCK  | 23    | SPISCLK    |
-| MOSI | 19    | SPIMOSI    |
-| MISO | 21    | SPIMISO    |
+| SDA  | 24    | SPICEO     |   8
+| SCK  | 23    | SPISCLK    |   11
+| MOSI | 19    | SPIMOSI    |   10
+| MISO | 21    | SPIMISO    |   9
 | IRQ  | None  | None       |
 | GND  |       | gnd        |
-| RST  | 22    | GPIO25     |
+| RST  | 22    | GPIO25     |   25
 | 3.3V |       | 3V3        |
 
 datasheet: https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf

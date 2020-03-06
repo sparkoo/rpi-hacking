@@ -2,8 +2,8 @@ from gpiozero import OutputDevice, InputDevice
 import time
 
 # setup row and column pins on rpi
-ROW = [19, 13, 5, 27]
-COL = [20, 16, 12]
+ROW = [22, 27, 17, 4]
+COL = [18, 15, 14]
 
 # key values
 KEYS = [["1", "2", "3"],
